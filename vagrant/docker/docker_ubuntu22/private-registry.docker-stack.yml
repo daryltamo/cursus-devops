@@ -48,4 +48,6 @@ services:
         condition: always
     volumes:
       - ./registry/data:/var/lib/registry
-  
+
+networks:
+  registry-network:
